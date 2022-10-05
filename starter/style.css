@@ -17,7 +17,7 @@
 .firstsection-right{
     width: 50%;
     height: 100%;
-    background: var(--linear-gradient),  url(../starter/images/image1.jpg);
+    background: var(--linear-gradient),  url("./images/image1.jpg");
     background-size: cover;
     background-position: bottom left;
 }
