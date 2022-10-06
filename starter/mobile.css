@@ -1,0 +1,29 @@
+@media screen and (max-width:600px) {
+    
+    .firstsection{
+        height: 520px;
+    }
+
+    .firstsection-left{
+        width: 60%;
+    }
+
+    .firstsection-right{
+        width: 40%;
+
+    }
+    .link-holder{
+        flex-direction: column;
+        padding-left: 40px;
+    }
+    .heading{
+        font-size: 25px;
+    }
+    .firstsection-left p{
+        font-size: 16px;
+    }
+    .line{
+        width: 150px;
+    }
+
+}
