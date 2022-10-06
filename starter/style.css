@@ -1,11 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
+}
+body{
+    font-family: 'Inter', sans-serif;
 }
 
 .firstsection{
-    height: 430px;
+    height: 460px;
     border: 2px solid black;
     display: flex;
 }
@@ -13,6 +17,7 @@
     width: 50%;
     height: 100%;
     background: var(--gray-color);
+    padding: 20px;
 }
 .firstsection-right{
     width: 50%;
@@ -20,4 +25,27 @@
     background: var(--linear-gradient),  url("./images/image1.jpg");
     background-size: cover;
     background-position: bottom left;
+}
+.span{
+    color: var(--main-color);
+}
+.topic{
+    margin-bottom: 20px;
+}
+.header{
+    margin-bottom: 20px;
+}
+.line{
+    width: 224px;
+    height: 16px;
+    background: var(--main-color);
+}
+.firstsection p{
+    margin-bottom:20px;
+}
+.link-holder{
+    color: var(--gray-color);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
 }
